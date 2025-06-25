@@ -1,8 +1,9 @@
 # This is a Databricks asset bundle definition for getting_started_ab.
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
 bundle:
-  name: getting_started_ab
-  uuid: 5423d5cb-5b64-4636-b90f-0de4e974d027
+  name: databricks_getting_started_ab
+  uuid: 07dfcecb-9552-4fbf-9a5e-4f1fd6adc9a4
+  
 
 include:
   - resources/*.yml
@@ -18,15 +19,16 @@ targets:
     
     default: true
     workspace:
-      host: https://dbc-6d02c3bc-c060.cloud.databricks.com
+      host: https://dbc-16662adf-d08b.cloud.databricks.com
+
     
 
   prod:
     mode: production
     workspace:
-      host: https://dbc-6d02c3bc-c060.cloud.databricks.com
+      host: https://dbc-16662adf-d08b.cloud.databricks.com
       # We explicitly deploy to /Workspace/Users/ngawang@customology.com.au to make sure we only have a single copy.
-      root_path: /Workspace/Users/ngawang@customology.com.au/.bundle/${bundle.name}/${bundle.target}
+      root_path: /Workspace/Shared/${bundle.name}/${bundle.target}
     permissions:
       - user_name: ngawang@customology.com.au
         level: CAN_MANAGE
