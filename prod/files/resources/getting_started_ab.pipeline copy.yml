@@ -1,0 +1,17 @@
+# The main pipeline for getting_started_ab
+resources:
+  pipelines:
+    getting_started_ab_pipeline:
+      name: getting_started_ab_pipeline
+      catalog: workspace
+      schema: getting_started_ab_${bundle.target}
+      libraries:
+        - notebook:
+            path: ../src/dlt_pipeline.ipynb
+      
+      serverless: true
+      configuration:
+        bundle.sourcePath: ${workspace.file_path}/src
+   
+      
+        
