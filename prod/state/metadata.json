@@ -5,7 +5,7 @@
       "git": {
         "branch": "main",
         "origin_url": "https://github.com/ngawang88/databricks_getting_started_ab.git",
-        "commit": "32afe571c64ddd95853de6e8209843dadedfe1ae",
+        "commit": "b2eb9b3f9b3a662876f4736f7f4b78976a4297f6",
         "bundle_root_path": "prod/files"
       }
     },
