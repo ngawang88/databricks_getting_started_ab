@@ -47,9 +47,9 @@
       },
       "position" : {
         "x" : 1,
-        "y" : 2,
-        "width" : 3,
-        "height" : 6
+        "y" : 0,
+        "width" : 5,
+        "height" : 7
       }
     } ],
     "pageType" : "PAGE_TYPE_CANVAS"

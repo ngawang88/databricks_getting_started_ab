@@ -4,8 +4,8 @@
     "bundle": {
       "git": {
         "branch": "main",
-        "origin_url": "https://github.com/ngawang88/databricks_getting_started_ab.git",
-        "commit": "b2eb9b3f9b3a662876f4736f7f4b78976a4297f6",
+        "origin_url": "git@github.com:ngawang88/databricks_getting_started_ab.git",
+        "commit": "b3d93201cc3d6204632a10db8b9bf3a0b8b458ae",
         "bundle_root_path": "prod/files"
       }
     },

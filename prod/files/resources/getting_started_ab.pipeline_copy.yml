@@ -1,8 +1,8 @@
 # The main pipeline for getting_started_ab
 resources:
   pipelines:
-    getting_started_ab_pipeline:
-      name: getting_started_ab_pipeline
+    getting_started_ab_pipeline_copy:
+      name: getting_started_ab_pipeline_copy
       catalog: workspace
       schema: getting_started_ab_${bundle.target}
       libraries:

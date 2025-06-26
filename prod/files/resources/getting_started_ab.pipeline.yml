@@ -2,6 +2,7 @@
 resources:
   pipelines:
     getting_started_ab_pipeline:
+      id: 7b1f785d-f0f7-4c37-a1d9-0fccfb57340f
       name: getting_started_ab_pipeline
       catalog: workspace
       schema: getting_started_ab_${bundle.target}
